@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color:#1a237e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 420px;
+    margin-top: 70px;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    box-shadow: 0  0 10px black;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.container h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    filter: drop-shadow(0 0 10px black);
+}
+.container .inputes .sanjay{
+    width:300px;
+    height:45px;
+    margin-top: 13px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0  0 10px black;
+}
+
+.container .inputes .btn{
+    width: 70px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    filter: drop-shadow( 0 0 10px yellow);
+    background-color: rgb(3, 105, 3);
+    border-radius: 12px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 8px;
+    transition: .4s;
+}
+
+.container .inputes .btn:hover{
+    filter: drop-shadow(0 0 10px white);
+    scale: 1.1;
+}
+
+.text ul{
+    position: relative;
+    width:380px;
+    height:45px;
+    margin-left: 20px;
+    margin-top: 18px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0  0 10px white;
+    text-align: left;
+    color:black;
+}
+
+.text ul i {
+    position: absolute;
+    right: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color:rgb(17, 7, 7);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: -32px;
+    filter: drop-shadow(0  0 6px yellow);
+    transition: .4s;
+}
+
+.text ul i:hover{
+    scale: 1.1;
+    filter: drop-shadow(0 0 10px white);
+}
